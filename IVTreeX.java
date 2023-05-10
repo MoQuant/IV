@@ -83,7 +83,7 @@ public class IVTreeX {
     }
 
     public static double Delta(double S, double K, double r, double q, double v1, double t, String optionType, int nodes, double dt){
-        double ds = 0.01;
+        double ds = 0.05;
         double dS = ds*S;
         double p0 = OP(S - dS, K, r, q, v1, t, optionType, nodes, dt);
         double p1 = OP(S + dS, K, r, q, v1, t, optionType, nodes, dt);
