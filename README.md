@@ -5,3 +5,6 @@ This repository contains C++ code which solves a Trinomial Tree options pricing 
 
 ## Video Link
 [YouTube Video](https://www.youtube.com/watch?v=34SEnMX1I8o)
+
+## Preview
+![alt](https://github.com/MoQuant/IV/blob/main/A.png)
